@@ -37,7 +37,7 @@ const navigate = useNavigate()
   }
 
   function userRegistry() {
-    Axios.post("http://localhost:2025/login", {
+    Axios.post("https://demo-backend-kp64.onrender.com/login", {
       username, useremail, userpassword, userconfirmpassword
     })
     .then((output) => {
